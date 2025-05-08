@@ -1,0 +1,55 @@
+{
+    "name": "Water",
+    "som": "seed",
+    "audio": { "channels": 2 },
+    "components": {
+        "relive": {
+            "component": "Switch",
+            "pin": 15
+        },
+        "influence": {
+            "component": "Switch",
+            "pin": 16
+        },
+        "liberate": {
+            "component": "Switch",
+            "pin": 17
+        },
+        "alter": {
+            "component": "Switch",
+            "pin": 18
+        },
+        "repair": {
+            "component": "Switch",
+            "pin": 19
+        },
+        "love": {
+            "component": "Switch",
+            "pin": 20
+        },
+        "awaken": {
+            "component": "Switch",
+            "pin": 21
+        },
+        "ground": {
+            "component": "Switch",
+            "pin": 22
+        },
+        "connect": {
+            "component": "Switch",
+            "pin": 23
+        },
+        "vol": {
+            "component" : "AnalogControl",
+            "pin": 24
+        },
+        "led": {
+            "component" : "RgbLed",
+            "pin":{
+                "r": 14,
+                "g": 13,
+                "b": 12
+         }
+     }
+    }
+}
